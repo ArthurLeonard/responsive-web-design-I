@@ -190,19 +190,22 @@ footer {
   font-size: 14px;
 }
 
-/* .container {
+.container {
   
     max-width: 800px;
     
     background: lightgray;
     margin: auto;
-  } */
+  } 
   
   /* Tablet range */
   @media( max-width: 800px ) {
     .container {
       width: 100%;
-      background: gray;
+      background: yellow;
+      img .logo {
+        width: 500px;
+      }
     }
   }
   
